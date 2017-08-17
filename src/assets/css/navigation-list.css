@@ -1,0 +1,37 @@
+.navigation-list:empty {
+    text-align: center;
+}
+
+.navigation-list:empty::after {
+    content: '[no supported media files or directories]';
+    color: #666;
+}
+
+.navigation-list__item {
+    cursor: pointer;
+    padding: 8px 0 8px 25px;
+    word-break: break-all;
+}
+
+.navigation-list__item.is-selected {
+    background: #c0c0c0;
+}
+
+.navigation-loading {
+    animation: spin 1s infinite linear;
+    border: 8px solid #c0c0c0;
+    border-left-color: transparent;
+    border-radius: 50%;
+    height: 12px;
+    margin: auto;
+    width: 12px;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

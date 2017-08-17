@@ -1,0 +1,25 @@
+.breadcrumbs {
+    padding-bottom: 20px;
+}
+
+.breadcrumbs__item {
+    display: inline-block;
+    padding-bottom: 0;
+    text-transform: capitalize;
+}
+
+.breadcrumbs__item--root {
+    font-family: monospace;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.breadcrumbs__item--subdir {
+    margin-left: 5px;
+}
+
+.breadcrumbs__item--subdir::before {
+    color: #666;
+    content: '\005C';
+    margin-right: 5px;
+}

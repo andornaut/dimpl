@@ -1,0 +1,31 @@
+.player-controls {
+    margin-top: 0;
+    padding-top: 50px;
+}
+
+.player-controls__control {
+    background-image: url(../img/player-controls.png);
+    background-repeat: no-repeat;
+    border: 0 none;
+    height: 16px;
+    margin: 0;
+    outline: 0 none;
+    padding: 0;
+    width: 39px;
+}
+
+.player-controls__control--play {
+    background-position: center 0;
+}
+
+.player-controls__control--pause {
+    background-position: center -50px;
+}
+
+.player-controls__control--ff {
+    background-position: center -100px;
+}
+
+.player-controls__control--rw {
+    background-position: center -150px;
+}

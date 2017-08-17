@@ -1,0 +1,12 @@
+.config {
+    background-color: #99ccff;
+    display: inline-flex;
+}
+
+.config__menu {
+    background: #99ccff;
+    color: #000;
+    display: inline-block;
+    font-size: 21px;
+    padding: 8px 10px;
+}

@@ -1,0 +1,29 @@
+.config-form {
+    padding: 0 40px 25px 40px;
+}
+
+.config-form label {
+    color: #fff;
+    font-weight: bold;
+}
+
+.config-form small {
+    color: #333;
+    display: block;
+    margin: 8px 0;
+}
+
+.config-form small a {
+    color: inherit;
+    text-decoration: underline;
+}
+
+.config-form__controls {
+    align-items: flex-end;
+    display: flex;
+    justify-content: space-between;
+}
+
+.config-form__controls button {
+    margin-right: 5px;
+}

@@ -1,0 +1,39 @@
+.player {
+    background-color: #fff;
+}
+
+.player p {
+    text-align: center;
+}
+
+.player video {
+    cursor: pointer;
+    margin-bottom: -25px;
+    width: 100%;
+}
+
+.player__progress {
+    display: flex;
+    margin: 0 25px 0 30px;
+}
+
+.player__progress progress {
+    border: 1px solid #aaa;
+    cursor: pointer;
+    flex: 1;
+    height: 18px;
+}
+
+.player__progress progress::-webkit-progress-value {
+    background-color: #FCF5C8;
+}
+
+.player__progress span {
+    margin-left: 5px;
+}
+
+.player__title {
+    margin-left: 25px;
+    margin-right: 25px;
+    text-transform: capitalize;
+}

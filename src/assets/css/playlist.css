@@ -1,0 +1,59 @@
+.playlist {
+    background-color: #fff;
+    padding: 30px;
+}
+
+.playlist__controls {
+    align-items: baseline;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.playlist__item {
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    margin-left: -30px;
+    margin-right: -30px;
+    padding: 8px 30px 8px 30px;
+    word-break: break-all;
+}
+
+.playlist__item:not(:last-of-type) {
+    border-bottom: 1px dotted #ddd;
+}
+
+.playlist__item.is-selected {
+    background-color: #ddd;
+}
+
+.playlist__item span {
+    text-transform: capitalize;
+}
+
+.playlist__remove {
+    border: 1px solid #ddd;
+    color: #aaa;
+    flex: 0;
+    font-size: 14px;
+    margin-left: 10px;
+    padding: 2px 3px;
+}
+
+.playlist__remove::before {
+    content: '\2715';
+}
+
+.playlist__shuffle {
+    font-size: 13px;
+}
+
+.playlist__shuffle.is-shuffled::after {
+    content: '\2713';
+    color: #000;
+    font-size: 21px;
+    margin-left: 5px;
+    margin-right: -18px;
+}

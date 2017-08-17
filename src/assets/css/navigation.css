@@ -1,0 +1,21 @@
+.navigation {
+    padding-bottom: 20px;
+    padding-right: 10px;
+    padding-top: 20px;
+}
+
+.navigation-controls {
+    align-items: flex-start;
+    display: flex;
+    font-family: monospace;
+    justify-content: space-between;
+    padding: 0 0 16px 0;
+}
+
+.navigation-controls__add-all {
+    margin-left: 10px
+}
+
+.navigation-controls__filter {
+    flex: 1;
+}
