@@ -141,7 +141,7 @@ You can also download pre-built packages from the [releases page][releases].
 
 ## Development
 
-```
+```bash
 # Download Electron into ./tmp
 gulp downloadElectron
 
