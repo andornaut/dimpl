@@ -19,7 +19,7 @@
     "babelify": "^7.2.0",
     "browserify": "^13.0.1",
     "del": "^2.2.0",
-    "gulp": "^3.9.0",
+    "gulp": "^4.0.2",
     "gulp-atom-electron": "^1.33.0",
     "gulp-concat": "^2.6.0",
     "gulp-cssnano": "^2.1.0",
